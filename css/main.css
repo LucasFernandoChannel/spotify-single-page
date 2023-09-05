@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "Gotham Font";
+    src: url("Gotham-Black.otf") format("opentype");
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Font";
+    src: url("Gotham-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Font";
+    src: url("Gotham-BookItalic.otf") format("opentype");
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Gotham Font";
+    src: url("Gotham-Light.otf") format("opentype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Font";
+    src: url("Gotham-Thin.otf") format("opentype");
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Font";
+    src: url("Gotham-ThinItalic.otf") format("opentype");
+    font-weight: 100;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Gotham Font";
+    src: url("Gotham-UltraItalic.otf") format("opentype");
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Gotham Font";
+    src: url("Gotham-XLight.otf") format("opentype");
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Gotham Font";
+    src: url("Gotham-XLightItalic.otf") format("opentype");
+    font-weight: 200;
+    font-style: italic;
+}
+
+* {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    background-color: #3a4ab6;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    font-family: "Gotham Font", sans-serif;
+    min-height: 100vh;
+}
+
+.logo, .brand, .slogan {
+    color: #11e054;
+}
+
+.brand, .slogan {
+    font-size: 18pt;
+    font-weight: 600;
+}
+
+#link-btn-explore {
+    background-color: #ffffff;
+    border-radius: 40px;
+    color: #071481;
+    font-size: 20pt;
+    font-weight: 600;
+    padding: 20px 70px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#link-btn-explore:hover{
+    background-color:#11e054;
+    color:#ffffff;
+}
+
+h1 {
+    font-size: 90pt;
+    font-weight: 800;
+    padding: 80px 0 40px 0;
+}
+
+.text {
+    font-size: 16pt;
+    font-weight: 600;
+    margin-bottom: 60px;
+}
+
+.row {
+    text-align: center;
+    width: 100%;
+}
+
+#main-row {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#logo-and-slogan {
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    height: auto;
+    width: 100%;
+}
+
+.brand {
+    margin: 0 100px 0 10px;
+}
+
+footer {
+    margin-top: auto;
+    padding: 20px 0px;
+    text-align: center;
+}
+
+#website-repository {
+    color: #ffffff;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+#website-repository:hover {
+    color:#11e054;
+}
+
